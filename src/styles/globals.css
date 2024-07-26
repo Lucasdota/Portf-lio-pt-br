@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@700&family=Poppins:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	text-wrap: balance;
+	font-size: 1.125rem;
+	line-height: 1.6;
+}
+
+.name{
+	transform: scaleY(1.05);
+}
+
+
+/* RESUME BUTTON */
+.btn.btn-effect {
+  transition: all 0.2s linear 0s;
+}
+
+.btn.btn-effect:before {
+	content: "\f178";
+    font-family: FontAwesome;
+    font-size: 12px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+}
+
+.btn.btn-effect:hover {
+	text-indent: -20px;
+}
+
+.btn.btn-effect:hover:before {
+	opacity: 1;
+  text-indent: 0px;
+}
+
+
+/* MOUSE SELECTION */
+::-moz-selection { /* Code for Firefox */
+  color: #222024;
+  background: #A3B3C2;
+}
+
+::selection {
+  color: #222024;
+  background: #A3B3C2;
+}
+
+header, #prof-pic, #tech-stack, #resume {
+	-webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
