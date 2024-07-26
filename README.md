@@ -1,13 +1,13 @@
-## Main portfolio
+## Portfólio em pt-br
 
-### I am currently focused on securing my first job as a front-end developer, eager to kickstart my career in the tech industry. After that, I plan to study back-end technologies to enhance my programming skills. Throughout my previous experiences, I have extensively interacted with customers, catering to their needs through face-to-face interactions and telephone. If you are seeking a driven and enthusiastic web developer to join your team, I would welcome the opportunity to discuss how I can add value. Please reach out to me to explore potential collaborations and learn more about my skills and experience.
+### Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, focado em conseguir meu primeiro emprego como desenvolvedor ou analista de sistemas, ansioso para iniciar minha carreira na indústria de tecnologia. Planejo me aprofundar em tecnologias tanto de front-end quanto de back-end para aprimorar minhas habilidades de programação. Ao longo das minhas experiências anteriores, interagi extensivamente com clientes, atendendo às suas necessidades tanto em interações presenciais quanto por telefone. Por favor, entre em contato comigo para explorar possíveis colaborações e saber mais sobre minhas habilidades e experiências.
 
-Developed with:
+Desenvolvido com:
 
 - Nextjs
 - Tailwindcss
 - Framer Motion
 
-Website: [click here](https://portfolio-virid-tau-44.vercel.app/projects)
+Website: [clique aqui](https://portfolio-pt-br-rouge.vercel.app/)
 
 
