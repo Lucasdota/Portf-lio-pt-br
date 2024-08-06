@@ -38,8 +38,8 @@ const Hero = () => {
           <Image
             src={Profile}
             alt="profile pic"
-            width={640}
-            height={640}
+            width={760}
+            height={760}
             priority
             loading="eager"
             onLoad={() => setImgLoaded(true)}
