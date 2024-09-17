@@ -26,13 +26,10 @@ const About = () => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, focado em conseguir meu primeiro emprego como
-        desenvolvedor ou analista de sistemas, ansioso para iniciar minha carreira na indústria de
+        Tenho 30 anos, estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, focado em conseguir meu primeiro emprego como
+        desenvolvedor web, ansioso para iniciar minha carreira na indústria de
         tecnologia. Planejo me aprofundar em tecnologias tanto de front-end quanto de back-end para
-        aprimorar minhas habilidades de programação. Ao longo das minhas
-        experiências anteriores, interagi extensivamente com clientes, atendendo
-        às suas necessidades tanto em interações presenciais quanto por
-        telefone. Por favor, entre em contato comigo para explorar possíveis
+        aprimorar minhas habilidades de programação. Meu maior projeto, com certeza, é o GrocerGo, onde apliquei todos os conhecimentos de front-end que aprendi até o momento. Por favor, entre em contato comigo para explorar possíveis
         colaborações e saber mais sobre minhas habilidades e experiências.
       </motion.p>
       <motion.div

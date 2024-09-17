@@ -51,21 +51,12 @@ const Hero = () => {
           )}
         </div>
         <p className="text-center text-[0.95rem] 3xl:text-lg 3xl:py-3 py-2 border dark:border-neutral-600 rounded-lg border-dashed border-neutral-400 antialiased px-2">
-          Olá, eu sou um developer residindo em São Paulo, Brasil.
+          Olá, eu sou um web developer residindo em São Paulo, Brasil.
         </p>
         <ul id="tech-stack" className="flex gap-5 3xl:gap-6 flex-wrap">
           <h3 className="font-bold text-xl 3xl:text-2xl antialiased">
             TECH STACK:
           </h3>
-          <li className="rounded-lg p-1 h-7 w-7 flex items-center bg-primary dark:bg-transparent">
-            <Tooltip title="SQL" arrow>
-              <Image
-                src={SQL}
-                alt="sql icon"
-                className="w-7 h-7 3xl:w-8 3xl:h-8 text-slate-50"
-              />
-            </Tooltip>
-          </li>
           <li className="group relative">
             <Tooltip title="React" arrow>
               <Image
@@ -126,6 +117,15 @@ const Hero = () => {
                 src={CSS}
                 alt="css icon"
                 className="w-7 h-7 3xl:w-8 3xl:h-8"
+              />
+            </Tooltip>
+          </li>
+          <li className="rounded-lg p-1 h-7 w-7 flex items-center bg-primary dark:bg-transparent">
+            <Tooltip title="SQL" arrow>
+              <Image
+                src={SQL}
+                alt="sql icon"
+                className="w-7 h-7 3xl:w-8 3xl:h-8 text-slate-50"
               />
             </Tooltip>
           </li>
