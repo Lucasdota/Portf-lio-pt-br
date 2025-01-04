@@ -38,14 +38,14 @@ const Roadmap = () => {
             className={"absolute top-0"}
           />
           <Objectives
-            year={2024}
+            year={2025}
             description="Conseguir meu primeiro emprego na área da tecnologia."
-            className={"absolute top-16"}
+            className={"absolute top-24"}
           />
           <Objectives
             year={2027}
             description="Me graduar na faculdade."
-            className={"absolute top-44"}
+            className={"absolute top-[12rem]"}
           />
           <Objectives
             year={2029}

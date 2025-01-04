@@ -17,7 +17,7 @@ const About = () => {
         SOBRE
       </motion.h2>
       <motion.p
-        className="text-[0.95rem] 3xl:text-lg antialiased indent-4 whitespace-normal"
+        className="text-[0.95rem] indent-4 3xl:text-lg antialiased whitespace-normal"
         initial="hidden"
         animate="visible"
         transition={{ duration: 0.3, ease: "easeInOut", delay: 0.5 }}
@@ -26,11 +26,12 @@ const About = () => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        Tenho 30 anos, estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, focado em conseguir meu primeiro emprego como
-        desenvolvedor web, ansioso para iniciar minha carreira na indústria de
-        tecnologia. Planejo me aprofundar em tecnologias tanto de front-end quanto de back-end para
-        aprimorar minhas habilidades de programação. Meu maior projeto, é o website GrocerGo, onde apliquei todos os conhecimentos de front-end que aprendi até o momento. Por favor, entre em contato comigo para explorar possíveis
-        colaborações e saber mais sobre minhas habilidades e experiências.
+		Possuo conhecimento em Java, Spring Boot e JWT, o que me capacita a
+		desenvolver aplicações seguras e eficientes. Tenho experiência em React,
+		criando interfaces responsivas e intuitivas. Também possuo inglês fluente, o que me ajuda na área da tecnologia. Atualmente, estou cursando
+		o segundo semestre de Análise e Desenvolvimento de Sistemas e estou
+		motivado a ingressar na área o quanto antes.
+		Tenho dois projetos principais que você pode checar na aba projetos, sendo um deles uma to-do list fullstack e outro um website de supermercado frontend.
       </motion.p>
       <motion.div
         className="z-10 flex items-center justify-center my-12"

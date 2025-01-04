@@ -1,10 +1,10 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import Head from "next/head";
-import GrocerGo from "@/components/GrocerGo";
-import OtherProjects from "@/components/other_projects/OtherProjects";
+import GrocerGo from "@/components/projects/GrocerGo";
+import TodoApp from "@/components/projects/TodoApp";
 
 const projects = () => {
-	return (
+  return (
     <>
       <Head>
         <title>Portfólio | Projetos</title>
@@ -19,7 +19,7 @@ const projects = () => {
           }}
         >
           <motion.h2
-            className="text-4xl font-extrabold mx-auto tracking-wider antialiased name font-poppins"
+            className="text-4xl sm:text-2xl font-extrabold mx-auto tracking-wider antialiased name font-poppins"
             initial="hidden"
             animate="visible"
             transition={{ duration: 0.3, ease: "easeInOut", delay: 0.4 }}
@@ -28,11 +28,9 @@ const projects = () => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            Projeto Principal
+            Lista de Tarefas
           </motion.h2>
-
-          {/* GrocerGo */}
-          <GrocerGo />
+          <TodoApp />
 
           {/* HR */}
           <motion.div
@@ -47,9 +45,8 @@ const projects = () => {
             }}
           />
 
-          
           <motion.h2
-            className="text-4xl font-extrabold mx-auto tracking-wider antialiased name font-poppins"
+            className="text-4xl sm:text-2xl font-extrabold mx-auto tracking-wider antialiased name font-poppins"
             initial="hidden"
             animate="visible"
             transition={{ duration: 0.3, ease: "easeInOut", delay: 0.5 }}
@@ -58,16 +55,13 @@ const projects = () => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            Outros Projetos
+            GrocerGo
           </motion.h2>
-
-					{/* Other projects */}
-					<OtherProjects />	
-
+          <GrocerGo />
         </motion.article>
       </section>
     </>
   );
-}
+};
 
-export default projects
+export default projects;

@@ -38,34 +38,6 @@ export default function Home() {
           <About />
           <Roadmap />
 
-          {/* ACTIVITIES */}
-          <motion.div
-            className="mb-8"
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 0.3, ease: "easeInOut", delay: 0.65 }}
-            variants={{
-              hidden: { opacity: 0, y: 10 },
-              visible: { opacity: 1, y: 0 },
-            }}
-          >
-            <h2 className="text-xl font-bold antialiased 3xl:text-2xl">
-              ATIVIDADES<span className="text-primary">&nbsp;EXTRA&nbsp;</span>
-            </h2>
-            <motion.p
-              className="text-[0.95rem] 3xl:text-lg mt-8 antialiased indent-4 whitespace-normal"
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1 }}
-              variants={{
-                hidden: { opacity: 0 },
-                visible: { opacity: 1 },
-              }}
-            >
-              Ir para a igreja, malhar, jogar futebol, vídeo-games, viajar &
-              sair com família e amigos.
-            </motion.p>
-          </motion.div>
         </motion.article>
       </section>
     </>

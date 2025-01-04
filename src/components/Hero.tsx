@@ -1,11 +1,10 @@
 import Javascript from "../../public/javascript.svg";
 import Typescript from "../../public/typescript.svg";
-import Tailwind from "../../public/tailwind-css.svg";
-import Nextjs from "../../public/nextjs.svg";
+import Java from "../../public/java.svg";
 import Git from "../../public/git.svg";
-import Html from "../../public/html.svg";
-import CSS from "../../public/css.svg";
-import SQL from "../../public/sql.svg";
+import SpringBoot from "../../public/spring.svg";
+import JWT from "../../public/jwt.svg";
+import PostgreSQL from "../../public/postgresql.svg";
 import Tooltip from "@mui/material/Tooltip";
 import Profile from "../../public/profile.webp";
 import Image from "next/image";
@@ -51,12 +50,48 @@ const Hero = () => {
           )}
         </div>
         <p className="text-center text-[0.95rem] 3xl:text-lg 3xl:py-3 py-2 border dark:border-neutral-600 rounded-lg border-dashed border-neutral-400 antialiased px-2">
-          Olá, eu sou um web developer residindo em São Paulo, Brasil.
+          Olá, eu sou um desenvolvedor residindo em São Paulo, Brasil.
         </p>
         <ul id="tech-stack" className="flex gap-5 3xl:gap-6 flex-wrap">
           <h3 className="font-bold text-xl 3xl:text-2xl antialiased">
             TECH STACK:
           </h3>
+          <li className="bg-white dark:bg-slate-200 rounded">
+            <Tooltip title="Java" arrow>
+              <Image
+                src={Java}
+                alt="java icon"
+                className="w-7 h-7 3xl:w-8 3xl:h-8"
+              />
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Spring Boot" arrow>
+              <Image
+                src={SpringBoot}
+                alt="spring boot icon"
+                className="w-7 h-7 3xl:w-8 3xl:h-8"
+              />
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="JWT" arrow>
+              <Image
+                src={JWT}
+                alt="JWT icon"
+                className="w-7 h-7 3xl:w-8 3xl:h-8 p-0.5"
+              />
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="PostgreSQL">
+              <Image
+                src={PostgreSQL}
+                alt="postgres icon"
+                className="w-7 h-7 3xl:w-8 3xl:h-8 p-0.5"
+              />
+            </Tooltip>
+          </li>
           <li className="group relative">
             <Tooltip title="React" arrow>
               <Image
@@ -85,47 +120,11 @@ const Hero = () => {
             </Tooltip>
           </li>
           <li>
-            <Tooltip title="TailwindCSS" arrow>
-              <Image
-                src={Tailwind}
-                alt="tailwind icon"
-                className="w-7 h-7 3xl:w-8 3xl:h-8"
-              />
-            </Tooltip>
-          </li>
-          <li>
             <Tooltip title="Git" arrow>
               <Image
                 src={Git}
                 alt="git icon"
                 className="w-7 h-7 3xl:w-8 3xl:h-8"
-              />
-            </Tooltip>
-          </li>
-          <li>
-            <Tooltip title="HTML" arrow>
-              <Image
-                src={Html}
-                alt="html icon"
-                className="w-7 h-7 3xl:w-8 3xl:h-8"
-              />
-            </Tooltip>
-          </li>
-          <li>
-            <Tooltip title="CSS" arrow>
-              <Image
-                src={CSS}
-                alt="css icon"
-                className="w-7 h-7 3xl:w-8 3xl:h-8"
-              />
-            </Tooltip>
-          </li>
-          <li className="rounded-lg p-1 h-7 w-7 flex items-center bg-primary dark:bg-transparent">
-            <Tooltip title="SQL" arrow>
-              <Image
-                src={SQL}
-                alt="sql icon"
-                className="w-7 h-7 3xl:w-8 3xl:h-8 text-slate-50"
               />
             </Tooltip>
           </li>
