@@ -1,6 +1,6 @@
-## Portfólio em pt-br
+## Portfólio Principal
 
-### Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, focado em conseguir meu primeiro emprego como desenvolvedor ou analista de sistemas, ansioso para iniciar minha carreira na indústria de tecnologia. Planejo me aprofundar em tecnologias tanto de front-end quanto de back-end para aprimorar minhas habilidades de programação. Ao longo das minhas experiências anteriores, interagi extensivamente com clientes, atendendo às suas necessidades tanto em interações presenciais quanto por telefone. Por favor, entre em contato comigo para explorar possíveis colaborações e saber mais sobre minhas habilidades e experiências.
+### Possuo conhecimento em Java, Spring Boot e JWT, o que me capacita a desenvolver aplicações seguras e eficientes. Tenho experiência em React, criando interfaces responsivas e intuitivas. Também possuo inglês fluente, o que me ajuda na área da tecnologia. Atualmente, estou cursando o segundo semestre de Análise e Desenvolvimento de Sistemas e estou motivado a ingressar na área o quanto antes. Tenho dois projetos principais que você pode checar na aba projetos, sendo um deles uma to-do list fullstack e outro um website de supermercado frontend.
 
 Desenvolvido com:
 
