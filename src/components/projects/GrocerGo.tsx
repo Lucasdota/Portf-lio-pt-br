@@ -1,8 +1,5 @@
-import grocergo from "../../../public/projects/grocergo-ss.webp";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import Accordion from "../projects/Accordion";
 import { motion } from "framer-motion";
 import { TbSeparatorVertical } from "react-icons/tb";
 import { CgWebsite } from "react-icons/cg";
@@ -25,7 +22,7 @@ const GrocerGo = () => {
       }}
     >
       <ReactPlayer
-        url="/videos/grocergo-showcase.mp4"
+        url="/videos/grocergo-pt-br.mp4"
         alt="grocergo video showcase"
         width="100%"
         height="100%"
@@ -71,9 +68,9 @@ const GrocerGo = () => {
 
       <div className="text-base sm:text-sm flex gap-2 items-start justify-start">
         <p>Tecnologias utilizadas:</p>
-        <span className="text-blue-300">React</span>
-        <span className="text-green-300">TailwindCSS</span>
-        <span className="text-red-300">Framer Motion</span>
+        <span className="text-blue-700 dark:text-blue-300">React</span>
+        <span className="text-green-700 dark:text-green-300">TailwindCSS</span>
+        <span className="text-red-700 dark:text-red-300">Framer Motion</span>
       </div>
     </motion.div>
   );

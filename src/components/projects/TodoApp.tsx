@@ -1,8 +1,5 @@
 import Link from "next/link";
-import Accordion from "../projects/Accordion";
 import { motion } from "framer-motion";
-import { TbSeparatorVertical } from "react-icons/tb";
-import { CgWebsite } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 import ReactPlayer from "react-player";
 
@@ -19,7 +16,7 @@ export default function TodoApp() {
         }}
       >
         <ReactPlayer
-          url="/videos/todo_app_showcase.mp4"
+          url="/videos/to-do-app-pt-br.mp4"
           alt="todo app video showcase"
           width="100%"
           height="100%"
@@ -52,11 +49,11 @@ export default function TodoApp() {
 
         <div className="text-base sm:text-sm flex gap-2 items-start justify-start">
           <p>Tecnologias utilizadas:</p>
-          <span className="text-orange-300">Java</span>
-          <span className="text-green-300">Spring Boot</span>
-          <span className="text-red-300">JWT</span>
-          <span className="text-purple-300">PostgreSQL</span>
-          <span className="text-blue-300">React</span>
+          <span className="text-orange-700 dark:text-orange-300">Java</span>
+          <span className="text-green-700 dark:text-green-300">Spring Boot</span>
+          <span className="text-red-700 dark:text-red-300">JWT</span>
+          <span className="text-purple-700 dark:text-purple-300">PostgreSQL</span>
+          <span className="text-blue-700 dark:text-blue-300">React</span>
         </div>
       </motion.div>
     );
